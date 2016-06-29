@@ -1,0 +1,17 @@
+ext {
+    debug = false
+
+    sdkVersion = "android-23"
+
+    toolVersion = "23.0.3"
+
+    Properties androidProperties = new Properties()
+    androidProperties.load(new FileInputStream("${project.rootDir}/local.properties"))
+
+    mavenServer = [
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/HDK-snapshots",
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/Custom-snapshots",
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"
+    ]
+
+}

@@ -1,0 +1,97 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HTC-release"}
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:1.2.2"
+        classpath "com.htc.plugin:htcgradleplugin:1.0.+"
+    }
+}
+
+allprojects {
+    apply from: "${project.rootDir}/common.gradle"
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, "seconds"
+    }
+    repositories {
+        jcenter()
+        mavenServer.each{ urls-> maven{ url urls.value.toString() } }
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: "eclipse"
+android {
+    compileSdkVersion "${project.ext.sdkVersion}"
+    buildToolsVersion "${project.ext.toolVersion}"
+
+    defaultConfig {
+        applicationId "com.example.oceanevan.incallserviceimpl3"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("/home/evan-wu/Perforce/10.9.32.20_1666/U55_Evan_Wu_AND2/PrebuildSDK/SDK/android-sdk_linux-x86/PrebuildAPP-tools/keystore/platform.jks")
+            storePassword "android"
+            keyAlias "platform"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile "AndroidManifest.xml"
+            java.srcDirs = ["src"]
+            jniLibs.srcDirs = ["libs"]
+            resources.srcDirs = ["src"]
+            aidl.srcDirs = ["src"]
+            renderscript.srcDirs = ["src"]
+            res.srcDirs = ["res"]
+            assets.srcDirs = ["assets"]
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

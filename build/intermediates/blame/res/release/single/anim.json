@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/anim/abc_popup_enter.xml"
+    }
+]
