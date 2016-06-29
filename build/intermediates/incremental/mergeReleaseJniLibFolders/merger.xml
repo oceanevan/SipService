@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/libs"/></dataSet><dataSet config="release"><source path="/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/src/release/jniLibs"/></dataSet></merger>

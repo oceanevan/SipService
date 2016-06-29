@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/mnt/sdb/Git/VzwSipService_app_apps_VzwSipService_8.00_and6.0.1_M80/VzwSipService/res/values-v14/styles.xml -->
-    <eat-comment/>
-    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- API 14 theme customizations can go here. -->
-    </style>
-</resources>

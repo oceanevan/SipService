@@ -24,14 +24,21 @@ allprojects {
 
 apply plugin: 'com.android.application'
 apply plugin: "eclipse"
+apply from: "${project.projectDir}/extraLibraries.gradle"
+
+dependencies {
+    compile fileTree(dir: "libs", include: "*.jar")
+    extraLibrary.each{compile it}
+}
+
 android {
     compileSdkVersion "${project.ext.sdkVersion}"
     buildToolsVersion "${project.ext.toolVersion}"
 
     defaultConfig {
-        applicationId "com.example.oceanevan.incallserviceimpl3"
-        minSdkVersion 23
-        targetSdkVersion 23
+        applicationId "com.htc.vzwsipserivce"
+        minSdkVersion 21
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }

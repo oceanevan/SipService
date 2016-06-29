@@ -1,4 +1,0 @@
-com.htc.vzwsipservice.R$drawable: int ic_launcher
-com.htc.vzwsipservice.R$string: int app_name
-com.htc.vzwsipservice.R$style: int AppBaseTheme
-com.htc.vzwsipservice.R$style: int AppTheme

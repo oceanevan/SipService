@@ -1,6 +1,0 @@
-com.htc.vzwsipservice.BuildConfig
-com.htc.vzwsipservice.R
-com.htc.vzwsipservice.R$attr
-com.htc.vzwsipservice.R$drawable
-com.htc.vzwsipservice.R$string
-com.htc.vzwsipservice.R$style
